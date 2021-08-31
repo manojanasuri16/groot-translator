@@ -6,6 +6,7 @@ var url = "https://api.funtranslations.com/translate/groot.json"
 
 function errorHandler(error) {
   console.log("ERROR "+error);
+  alert("ERROR! API Limit exceeded, Please try again after 1 hour");
 }
 
 function clickHandler() {  
