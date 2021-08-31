@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{  
+  font-family: 'Noto Sans JP', sans-serif;    
+  margin: 0% 20%;  
+  background-color:#F9FAFB;
+  display: block;  
+}
+
+#heading{
+  margin-top:1rem;
+  font-size:4rem;
+}
+
+#input-box{  
+  border:5px solid rgb(16, 77, 26);  
+  background-color: rgba(16, 77, 26, 0.178);  
+  font-size:2rem;
+  height: 10rem;  
+  width:80%;   
+}
+
+#translate-btn{
+  margin-top: 1rem;
+  padding:1rem;  
+  display: block; 
+  width: 8rem; 
+  font-size: 1.5rem;
+  background-color:#1436758c;
+  border-radius:0.2em;  
+}
+
+#output-div{  
+  font-size:2rem;
+  border:5px solid rgb(63, 49, 19);    
+  background-color: rgba(63, 49, 19, 0.253);
+  height: 10rem;  
+  width:80%;   
+  margin-bottom: 2rem;
+}
